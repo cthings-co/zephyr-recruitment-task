@@ -1,0 +1,3 @@
+mainmenu "Native POSIX Dummy driver task"
+
+rsource "drivers/Kconfig"

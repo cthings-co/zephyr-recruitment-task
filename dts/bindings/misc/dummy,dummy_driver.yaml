@@ -1,0 +1,8 @@
+# Copyright (c) 2021, cthings.co
+# SPDX-License-Identifier: Apache-2.0
+
+description: Dummy driver
+
+compatible: "dummy,dummy_driver"
+
+include: base.yaml

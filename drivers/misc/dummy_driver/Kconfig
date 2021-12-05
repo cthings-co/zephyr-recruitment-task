@@ -1,0 +1,10 @@
+# Copyright (c) 2021 cthings.co
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig DUMMY_DRIVER
+	bool "dummy driver"
+	default n
+	help
+	  Enable Dummy Driver.
+
+# BUILD-TIME CONFIGS:

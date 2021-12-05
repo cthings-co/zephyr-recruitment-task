@@ -1,0 +1,23 @@
+# Copyright (c) 2021 cthings.co
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+
+  defaults:
+    remote: zephyrproject-rtos
+
+  projects:
+    - name: zephyr
+      repo-path: zephyr
+      revision: main
+      import:
+        name-allowlist:
+          - cmsis
+          - edtt
+          - fatfs
+          - libmetal
+          - littlefs
+          - mcumgr

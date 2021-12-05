@@ -1,0 +1,15 @@
+/*
+ * Copyright 2021 cthings.co
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/* Use overlay for dummy_driver */
+
+/ {
+	dummy_driver0: dummy_driver {
+		status = "okay";
+		compatible = "dummy,dummy_driver";
+		label = "DUMMY_DRIVER";
+	};
+};
